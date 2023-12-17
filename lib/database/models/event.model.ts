@@ -23,7 +23,7 @@ const EventSchema = new Schema({
   createdAt: { type: Date, default: Date.now },
   imageUrl: { type: String, required: true },
   startDateTime: { type: Date, default: Date.now },
-  endtDateTime: { type: Date, default: Date.now },
+  endDateTime: { type: Date, default: Date.now },
   price: { type: String },
   isFree: { type: Boolean, default: false },
   url: { type: String },
